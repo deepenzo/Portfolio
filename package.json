@@ -14,6 +14,7 @@
     "build:worker": "opennextjs-cloudflare",
     "preview": "opennextjs-cloudflare && wrangler dev",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
+    "install": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
